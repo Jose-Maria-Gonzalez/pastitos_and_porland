@@ -1,0 +1,118 @@
+main {
+  text-align: center;
+  box-sizing: content-box;
+  height: 40vw;
+  width: 50vw;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom:  3%;
+  background-color: rgba(95, 58, 9, 0.479);
+}
+
+.contenedor {
+  margin-top: 2cm;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.titulo {
+  border: black 3px solid;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  font-size: 5vw;
+  color: black;
+}
+
+p {
+  margin-top: 1.3cm;
+  font-size: 1.3vw;
+}
+
+.imagenDeFondo{
+  width: 90%;
+}
+
+@media only screen and (max-width: 1373px) {
+  main{
+    height: 50vw;
+    width: 60vw;
+    margin-left: 20%;
+    margin-bottom: 1cm;
+  }
+
+  p{
+    font-size: 1.5vw;
+  }
+}
+
+
+@media only screen and (max-width: 1015px) {
+  main{
+    height: 60vw;
+    width: 70vw;
+    margin-left: 18%;
+  }
+
+  p{
+    margin-top: 2cm;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  main{
+    margin-top: 6%;
+    margin-left: 15%;
+    width: 70vw;
+    height: 65vw;
+  }
+
+  p{
+    margin-top: 1.5cm;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  main{
+    margin-left: 13%;
+    width: 75vw;
+    height: 75vw;
+  }
+
+  p{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main{
+    margin-top: 10%;
+    margin-left: 8.2%;
+    width: 85vw;
+    height: 90vw;
+  }
+
+  p{
+    font-size: 4vw;
+  }
+
+  .titulo{
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main{
+    margin-top: 15%;
+    margin-left: 8.2%;
+    height: 100vw;
+  }
+
+  .titulo{
+    font-size: 8vw;
+  }
+}

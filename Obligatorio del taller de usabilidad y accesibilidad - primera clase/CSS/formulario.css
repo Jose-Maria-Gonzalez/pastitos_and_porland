@@ -1,0 +1,104 @@
+main {
+  text-align: center;
+  box-sizing: content-box;
+  height: 40%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(95, 58, 9, 0.479);
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+}
+
+fieldset {
+  width: 50%;
+  border: black 3px solid;
+  background-color: rgba(95, 58, 9, 0.479);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-top: 0.1cm;
+  margin-bottom: 0.5cm;
+  width: 50%;
+}
+
+.enviar {
+  margin-top: 0.6cm;
+  background-color: rgb(207, 139, 60);
+  font-weight: bold;
+  width: 20%;
+}
+
+.enviar:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+@media only screen and (max-width: 1300px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 867px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  fieldset {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 563px) {
+  fieldset {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  fieldset {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  fieldset {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  main {
+    width: 95%;
+  }
+
+  fieldset {
+    width: 95%;
+  }
+}

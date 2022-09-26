@@ -1,0 +1,106 @@
+main {
+  text-align: center;
+  box-sizing: content-box;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  height: 50%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(95, 58, 9, 0.479);
+}
+
+.contenedorDelCatalago {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.publicacion1 {
+  border: black 3px solid;
+  width: 90%;
+  height: 28vw;
+  text-align:initial;
+  margin: 0.25cm;
+  margin-left: 4.5%;
+  margin-bottom: 1vw;
+  background-color: rgba(95, 58, 9, 0.479);
+}
+
+.imgCatalogo {
+  width: 30%;
+  max-width: 30%;
+  border: black 4px solid;
+  margin-bottom: 0.5cm;
+  transform: translate(2.5vw, 5.5vw);
+}
+
+.contenedor_texto{
+  text-align: justify;
+  width: 50vw;
+  transform: translate(30vw, -12vw);
+}
+
+p {
+  font-size: 14pt;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+}
+
+@media only screen and (max-width: 1350px) {
+  main {
+    width: 60%;
+  }
+
+  .publicacion1{
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    width: 70%;
+  }
+
+  .publicacion1{
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 1011px) {
+  .publicacion1{
+    width: 45%;
+    margin-left: 2%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  main {
+    width: 90%;
+  }
+
+  .publicacion1{
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .publicacion1{
+    width: 45%;
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .publicacion1{
+    width: 70%;
+    margin-left: 14.5%;
+  }
+}

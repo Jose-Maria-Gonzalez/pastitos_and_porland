@@ -1,0 +1,115 @@
+main {
+  text-align: center;
+  box-sizing: content-box;
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(95, 58, 9, 0.479);
+  transform: translate(-5%, 2%);
+  border: black 3px solid;
+  margin-bottom: 1cm;
+}
+
+.informacionDeLaEmpreza {
+  border: black 3px solid;
+  width: 90%;
+  transform: translate(5%, 2%);
+  background-color: rgba(95, 58, 9, 0.479);
+  margin-bottom: 1.5cm;
+}
+
+h2 {
+  text-align: left;
+}
+
+.subtitulos {
+  transform: translate(1%, 15%);
+}
+
+p {
+  text-align: left;
+  width: 90%;
+  transform: translate(2%, 15%);
+  margin-bottom: 1cm;
+  font-size: 14pt;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 0.2cm;
+}
+
+.contactos {
+  text-align: center;
+}
+
+.contenedorContactos {
+  border: black 3px solid;
+  transform: translate(50%, -10%);
+  width: 50%;
+  background-color: rgba(95, 58, 9, 0.479);
+  overflow: auto;
+}
+
+@media only screen and (max-width: 1500px) {
+  main{
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1351px) {
+  main{
+    width: 70%;
+    margin-left: 18%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  main{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .contenedorContactos{
+    width: 60%;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  main{
+    width: 90%;
+    margin-left: 9%;
+  }
+
+  .contenedorContactos{
+    width: 60%;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .contenedorContactos{
+    width: 70%;
+    margin-left: -20%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .contenedorContactos{
+    width: 80%;
+    margin-left: -30%;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  .contenedorContactos{
+    width: 90%;
+    margin-left: -40%;
+  }
+}
